@@ -5,20 +5,48 @@ And Images of Similar Completed IR Integrated Garments and Build Phases
 ![Camera Shy Hoodie by Mac Pierce - Completed Front View](https://pbs.twimg.com/media/FqyQqL0aAAEL8Ng.jpg)  
 (Front view of the completed IR LED hoodie for camera disruption.)
 
-![Hacker Hoodie in Normal Light](https://petapixel.com/assets/uploads/2017/10/irledhoodie_feat.jpg)  
-(Completed hoodie in normal light, with hidden IR LEDs.)
 
-![Hacker Hoodie in IR View](https://petapixel.com/assets/uploads/2017/10/irledhoodie_1.jpg)  
-(IR view showing blooming effect obscuring the face.)
+### Completed Garments
+![Camera Shy Hoodie - Front View Completed](https://hackaday.com/wp-content/uploads/2023/03/camer-shy-hoodie.png)  
+(Completed IR LED hoodie obscuring face from surveillance cameras - Mac Pierce Camera Shy Hoodie.)
 
-![URBANGHOST LED Coat - Completed Gray Variant](https://urban-privacy.com/cdn/shop/products/urban-privacy-urbanghost-led-coat-gray-1_1024x1024@2x.jpg?v=1699523653)  
-(Completed coat with IR LEDs in hood, gray fabric.)
+![Camera Shy Hoodie - Side View](https://images.squarespace-cdn.com/content/v1/59fc78f1b07869a18edb2d7b/ca833a97-bf9a-40e0-b141-1c476c03afea/ARS23_ATS-SAIC_lrg-19.jpg)  
+(Completed hoodie with IR LEDs integrated around hood and shoulders.)
 
-![URBANGHOST LED Coat - Completed Black Variant](https://urban-privacy.com/cdn/shop/products/urban-privacy-urbanghost-led-coat-black-1_1024x1024@2x.jpg?v=1699523653)  
-(Completed coat in black, showing integrated LEDs.)
+![Camera Shy Hoodie - In Action](https://petapixel.com/assets/uploads/2023/03/IMG_4979-800x533.jpeg)  
+(IR view showing disruption effect.)
 
-![Miss-My-Face IR Veil - Completed Hat and Veil](https://urbanarmor.org/wp-content/uploads/2014/05/miss-my-face-ir-veil.jpg)  
-(Completed hat and veil with IR LEDs in normal and IR modes.)
+![Camera Shy Hoodie - Another Angle](https://www.techeblog.com/wp-content/uploads/2023/03/camera-shy-hoodie-ir-leds-blind-surveillance-camera.jpg)  
+(Completed garment in use.)
+
+![Camera Shy Hoodie - Bloom Effect](https://images.squarespace-cdn.com/content/v1/59fc78f1b07869a18edb2d7b/1676381306145-2H44W6O7X0T6VYNBFS20/IMG_4729.jpg)  
+(Example of IR blooming obscuring identity.)
+
+
+
+### Build Phase Images (From Adaptable LED Hoodie Tutorials)
+![EL Wire Hoodie - Completed Lit](https://cdn.sparkfun.com/assets/learn_tutorials/7/7/0/EL_Wire_Hoodie_Bright_Room_Lit.jpg)  
+(Completed similar light-up hoodie - adapt wiring for IR LEDs.)
+
+![EL Wire Hoodie - Dark Lit View](https://cdn.sparkfun.com/assets/learn_tutorials/7/7/0/EL_Wire_Hoodie_Dark_Room_Lit.jpg)  
+(Dark room view showing light effect - similar to IR bloom.)
+
+![Planning EL Wire Layout](https://cdn.sparkfun.com/assets/learn_tutorials/7/7/0/Plan_EL_Wire_Binder_Clips_Front_Hoodie.jpg)  
+(Planning and clipping wires to fabric.)
+
+![Hoodie Front View Assembly](https://cdn.sparkfun.com/assets/learn_tutorials/7/7/0/EL_Wire_Hoodie_Front_View.jpg)  
+(Front assembly with wires sewn.)
+
+![Stitching Wire Loop](https://cdn.sparkfun.com/assets/learn_tutorials/7/7/0/EL_Wire_Stitch_Loop_Clear_Thread.jpg)  
+(Close-up of sewing/stitching wires into fabric.)
+
+![LED Hoodie Step Example](https://content.instructables.com/F82/FI4T/II0BJO8C/F82FI4TII0BJO8C.jpg?auto=webp)  
+(Build step from LED hoodie tutorial - wiring and placement.)
+
+![Another LED Hoodie Assembly](https://content.instructables.com/FBM/RV79/II0BJPJP/FBMRV79II0BJPJP.jpg?auto=webp)  
+(Integration step for LEDs in hood.)
+
+
 
 ### Build Phase Images (From Similar LED Hoodie Tutorial)
 ![Overview of Completed Smart Hoodie](https://content.instructables.com/FKA/G94M/IGC3F3RN/FKAG94MIGC3F3RN.jpg)  
