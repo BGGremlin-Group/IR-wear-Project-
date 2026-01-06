@@ -1,7 +1,7 @@
 # IRWP-Toolbox — Pattern Generator Toolbox (GUI + TUI)
 
 
-![IR-Wear Project Banner](https://github.com/BGGremlin-Group/IR-wear-Project-/blob/main/img/IRWP_GEN_BANNER.png
+![IR-Wear Project Banner](https://github.com/BGGremlin-Group/IR-wear-Project-/blob/main/img/IRWP_GEN_BANNER.png)
 
 
 IRWP-Toolbox is a self-contained toolbox that generates **printable pattern designs** using a **seeded RNG** (reproducible), **palette mapping**, **layer blending**, and exports results as **PDFs with embedded images** for printing/sharing.
