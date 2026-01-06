@@ -1,7 +1,7 @@
 ### IR-Wear AI-Confusing Pattern Generator README
 
 ## Project Banner
-![IR-Wear Project Banner](img/banner.png) <!-- Assuming the IR project has this; replace with actual if available -->
+![IR-Wear Project Banner](https://github.com/BGGremlin-Group/IR-wear-Project-/blob/main/img/ADVPAT_BANNER.png)
 
 ## Overview
 This single-file HTML web application is a fully featured, robust tool developed specifically for the IR-Wear Project, which focuses on DIY IR LED integrated clothing for privacy against surveillance technologies. The app generates printable, unique patterns that confuse computer vision (CV) and AI systems, complementing the project's IR LED countermeasures for daylight and multi-spectrum evasion. Patterns are procedurally created using JavaScript, Canvas API, and Three.js, ensuring no two generations are identical unless seeded. It supports full customization for art projects, privacy gear prototyping, and testing AI vulnerabilities.
