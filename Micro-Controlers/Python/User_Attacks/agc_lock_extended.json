@@ -1,0 +1,17 @@
+{
+  "name": "AGC_Lock_Extended_Warfare",
+  "description": "Extended 30-second saturation for stubborn AGC circuits",
+  "type": "camera_attack",
+  "severity": "critical",
+  "sequence": [
+    {"group": 4, "intensity": 255, "duration_ms": 100, "jitter_percent": 0},
+    {"group": 4, "intensity": 0, "duration_ms": 100, "jitter_percent": 0},
+    {"group": 4, "intensity": 255, "duration_ms": 30000, "jitter_percent": 0}
+  ],
+  "repeat": 1,
+  "target_cameras": ["Avigilon_H6A_12MP", "Panasonic_WV-S65300LN", "Dahua_DH-IPC-HDW5241HP-ZE"],
+  "effective_range_meters": 3.5,
+  "power_consumption_watts": 24.0,
+  "expected_result": "Camera remains black/white for full 30 seconds. AGC requires 10+ seconds to recover.",
+  "limitations": "High power consumption. May trigger thermal shutdown on some LED arrays. Ineffective on cameras with mechanical IR cut filters."
+}
