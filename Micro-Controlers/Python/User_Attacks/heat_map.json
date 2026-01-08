@@ -1,0 +1,16 @@
+{
+  "name": "Heat_Map_Corruption_Zone",
+  "description": "Creates persistent false hot zone in heatmap analytics, corrupting customer behavior analysis",
+  "type": "data_injection",
+  "severity": "low",
+  "sequence": [
+    {"group": 4, "intensity": 150, "duration_ms": 10000, "jitter_percent": 15}
+  ],
+  "repeat": 3,
+  "target_cameras": ["AXIS_Store_Visitor_Heatmap", "HIKVISION_Heat_Mapping", "Avigilon_Heatmap"],
+  "verified_on_hardware": ["AXIS_Store_Visitor_Flow_v1.2", "Hikvision_iDS-9616NXI-I8"],
+  "effective_range_meters": 2.5,
+  "power_consumption_watts": 24.0,
+  "expected_result": "Creates false 'hot zone' in analytics dashboard. Corrupts customer behavior analysis, product placement decisions. Persists in historical data.",
+  "limitations": "Only affects cameras with heatmap software. Static IR source may be filtered as anomaly after 24 hours. Requires 10+ second persistence to register."
+}
