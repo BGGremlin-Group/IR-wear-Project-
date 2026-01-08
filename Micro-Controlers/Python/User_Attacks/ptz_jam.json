@@ -1,7 +1,7 @@
 {
   "name": "PTZ_Overflow_Tracking_Jam",
   "description": "Rapid IR pulses create multiple false targets, overflow PTZ tracking buffer",
-  "type": "camera_attack",
+  "type": "EXPERIMENTAL-camera_attack",
   "severity": "high",
   "sequence": [
     {"group": 0, "intensity": 200, "duration_ms": 100, "jitter_percent": 5},
