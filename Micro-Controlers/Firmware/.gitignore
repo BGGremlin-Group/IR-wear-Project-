@@ -9,3 +9,4 @@
 *.lst
 build/
 .vscode/
+.platformio/
