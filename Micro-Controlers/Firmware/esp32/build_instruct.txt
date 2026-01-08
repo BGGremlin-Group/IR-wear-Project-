@@ -1,0 +1,15 @@
+Build Instructions for ESP32:
+1. 
+Install Arduino IDE
+2. 
+Add ESP32 board support: https://docs.espressif.com/projects/arduino-esp32/en/latest/installing.html
+3. 
+Open  esp32_firmware.ino 
+4. 
+Select Tools → Board → ESP32 Dev Module
+5. 
+Select correct Port
+6. 
+Click Sketch → Export Compiled Binary
+7. 
+File will be saved as  esp32_firmware.ino.bin  → rename to  esp32_firmware.bin 
