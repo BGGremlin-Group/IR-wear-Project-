@@ -1,0 +1,61 @@
+{
+  "name": "D_Default2",
+  "description": "MAXIMUM INTENSITY: All 12 attack patterns running simultaneously across LED groups. Half array does AGC lock while other half does flicker, then flip-flops. Runs until manual stop. Thermal limit warnings expected.",
+  "type": "orchestration",
+  "severity": "critical",
+  "flip_flop_enabled": true,
+  "thermal_warning": true,
+  "sequence": [
+    {"group": 0, "intensity": 255, "duration_ms": 30, "notes": "AGC_QUICK_HAT_MAX"},
+    {"group": 1, "intensity": 255, "duration_ms": 100, "notes": "FLICKER_HOODIE_MAX"},
+    {"group": 2, "intensity": 255, "duration_ms": 30, "notes": "AGC_QUICK_PANTS_MAX"},
+    {"group": 3, "intensity": 255, "duration_ms": 100, "notes": "FLICKER_SHOES_MAX"},
+    
+    {"group": 0, "intensity": 0, "duration_ms": 30, "notes": "AGC_OFF_HAT"},
+    {"group": 1, "intensity": 255, "duration_ms": 100, "notes": "FLICKER_CONT_HOODIE"},
+    {"group": 2, "intensity": 0, "duration_ms": 30, "notes": "AGC_OFF_PANTS"},
+    {"group": 3, "intensity": 255, "duration_ms": 100, "notes": "FLICKER_CONT_SHOES"},
+    
+    {"group": 0, "intensity": 255, "duration_ms": 5000, "notes": "AGC_EXTENDED_HAT"},
+    {"group": 1, "intensity": 255, "duration_ms": 100, "notes": "FLICKER_RAPID_HOODIE"},
+    {"group": 2, "intensity": 255, "duration_ms": 5000, "notes": "AGC_EXTENDED_PANTS"},
+    {"group": 3, "intensity": 255, "duration_ms": 100, "notes": "FLICKER_RAPID_SHOES"},
+    
+    {"group": 0, "intensity": 255, "duration_ms": 5000, "notes": "SATURATION_HAT"},
+    {"group": 1, "intensity": 255, "duration_ms": 5000, "notes": "SATURATION_HOODIE"},
+    {"group": 2, "intensity": 255, "duration_ms": 5000, "notes": "SATURATION_PANTS"},
+    {"group": 3, "intensity": 255, "duration_ms": 5000, "notes": "SATURATION_SHOES"},
+    
+    {"group": 0, "intensity": 255, "duration_ms": 3000, "notes": "FACE_DAZZLE_HAT_INTENSE"},
+    {"group": 1, "intensity": 255, "duration_ms": 100, "notes": "ROLLING_SHUT_SLOW_HOODIE"},
+    {"group": 2, "intensity": 255, "duration_ms": 3000, "notes": "FACE_DAZZLE_PANTS_INTENSE"},
+    {"group": 3, "intensity": 255, "duration_ms": 100, "notes": "ROLLING_SHUT_SLOW_SHOES"},
+    
+    {"group": 0, "intensity": 220, "duration_ms": 500, "notes": "ALPR_HAT_MAX"},
+    {"group": 1, "intensity": 255, "duration_ms": 100, "notes": "FLICKER_ULTRA_HOODIE"},
+    {"group": 2, "intensity": 220, "duration_ms": 500, "notes": "ALPR_PANTS_MAX"},
+    {"group": 3, "intensity": 255, "duration_ms": 100, "notes": "FLICKER_ULTRA_SHOES"},
+    
+    {"group": 0, "intensity": 255, "duration_ms": 100, "notes": "PTZ_JAM_HAT_MAX"},
+    {"group": 1, "intensity": 255, "duration_ms": 100, "notes": "PTZ_JAM_HOODIE_MAX"},
+    {"group": 2, "intensity": 255, "duration_ms": 100, "notes": "PTZ_JAM_PANTS_MAX"},
+    {"group": 3, "intensity": 255, "duration_ms": 100, "notes": "PTZ_JAM_SHOES_MAX"},
+    
+    {"group": 0, "intensity": 0, "duration_ms": 50, "notes": "BREATHER_MICRO_HAT"},
+    {"group": 1, "intensity": 0, "duration_ms": 50, "notes": "BREATHER_MICRO_HOODIE"},
+    {"group": 2, "intensity": 0, "duration_ms": 50, "notes": "BREATHER_MICRO_PANTS"},
+    {"group": 3, "intensity": 0, "duration_ms": 50, "notes": "BREATHER_MICRO_SHOES"},
+    
+    {"group": 0, "intensity": 255, "duration_ms": 8000, "notes": "SENSOR_PARTIAL_LONG_HAT"},
+    {"group": 1, "intensity": 255, "duration_ms": 100, "notes": "FLICKER_FINAL_HOODIE"},
+    {"group": 2, "intensity": 255, "duration_ms": 8000, "notes": "SENSOR_PARTIAL_LONG_PANTS"},
+    {"group": 3, "intensity": 255, "duration_ms": 100, "notes": "FLICKER_FINAL_SHOES"}
+  ],
+  "repeat": 0,
+  "thermal_limit_celsius": 65,
+  "target_cameras": ["All"],
+  "effective_range_meters": 5.0,
+  "power_consumption_watts": 24.0,
+  "expected_result": "Simultaneous execution of all attack vectors. Half LED array does high-intensity camera attacks (AGC, saturation, ALPR) while other half does flicker/rolling shutter. Flip-flops every phase. Runs until manual emergency stop. Thermal shutdown likely after 15-20 minutes continuous.",
+  "limitations": "Will trigger thermal protection on most LED arrays within 15-20 minutes. High battery drain (2-3 hours max). 5mm LEDs may discolor at sustained max intensity. Requires active cooling for extended operation."
+}
