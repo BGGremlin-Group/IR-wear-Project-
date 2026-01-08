@@ -1,0 +1,15 @@
+Build Instructions for Pi Pico:
+1. 
+Install Arduino IDE
+2. 
+Add Raspberry Pi Pico support: https://arduino-pico.readthedocs.io/
+3. 
+Open  pico_firmware.cpp 
+4. 
+Select Tools → Board → Raspberry Pi Pico
+5. 
+Select Tools → Port (hold BOOTSEL button if needed)
+6. 
+Click Sketch → Export Compiled Binary
+7. 
+File will be  pico_firmware.cpp.uf2  → rename to  pico_firmware.uf2 
