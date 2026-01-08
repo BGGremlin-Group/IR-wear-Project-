@@ -6,6 +6,34 @@ This directory contains live attack patterns for IR surveillance system testing.
 
 ---
 
+## Structure 
+
+```
+user_attacks/
+├── README.md
+├── agc_lock.json
+├── agc_lock_extended.json
+├── agc_lock_quick.json
+├── alpr_corrupt.json
+├── dazzle.json
+├── face_dazzle_intense.json
+├── flicker.json
+├── ptz_jam.json
+├── ptz_overflow_slow.json
+├── rolling_shutter_slow.json
+├── saturation.json
+├── sensor_partial.json
+├── EXPERIMENTAL-heat_map.json
+├── EXPERIMENTAL-people_rapid.json
+├── EXPERIMENTAL-people_spoof.json
+├── EXPERIMENTAL-queue_manip.json
+└── Deadly_Defaults/
+    ├── D_Default1_Aggressive_Overdrive.json
+    ├── D_Default2_Burnout_Stress_Test.json
+    ├── D_Default3_Chaos_Engine.json
+    └── D_Default4_Balanced_Endurance.json
+```
+
 File Categories
 
 ✅ STABLE & VERIFIED PATTERNS (Should Work)
