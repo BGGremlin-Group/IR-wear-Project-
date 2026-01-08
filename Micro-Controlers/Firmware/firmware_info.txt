@@ -1,0 +1,28 @@
+The Flasher Programs do not generate firmware files.
+
+What Flasher Does:
+Purpose: Uploads pre-compiled firmware to microcontrollers
+ 
+Flashes existing  .bin ,  .uf2 ,  .hex  files onto hardware
+ 
+Does NOT create firmware - it only moves binaries to devices
+Firmware Source Code
+ 
+Purpose: The actual C++ program that runs on the microcontroller
+ 
+Must be compiled using platform-specific toolchains (Arduino IDE, PlatformIO, etc.)
+ 
+Result: Produces the binary files that the Python flasher uses
+Why we do not officially provide Binaries
+I cannot give you pre-compiled binaries because:
+1. 
+Hardware Variants: Your ESP32 might be a DevKit v1 or v4, Pico might be original or W, Nano might have old/new bootloader
+2. 
+Security: You must compile from source to verify no malicious code
+3. 
+Configuration: Pin assignments might differ on your boards
+4. 
+Trust: Only compile firmware you have reviewed
+Automated Build Solution
+
+For a builder see `build_firmware.py`
