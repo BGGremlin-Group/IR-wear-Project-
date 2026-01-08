@@ -1,0 +1,16 @@
+{
+  "name": "Rolling_Shutter_Flicker_Tear",
+  "description": "1kHz flicker creates diagonal tearing artifacts in CMOS rolling shutter sensors",
+  "type": "camera_attack",
+  "severity": "medium",
+  "sequence": [
+    {"group": 5, "intensity": 200, "duration_ms": 100, "jitter_percent": 5}
+  ],
+  "repeat": 3,
+  "target_cameras": ["HIKVISION_ColorVu", "LOREX_4K", "AXIS_M2026", "Sony_IMX335_based"],
+  "verified_on_hardware": ["IMX334_CMOS", "IMX335_CMOS"],
+  "effective_range_meters": 2.0,
+  "power_consumption_watts": 24.0,
+  "expected_result": "Diagonal banding and tearing in video. Corrupts forensic video evidence usability. Persists while flickering.",
+  "limitations": "Only affects rolling shutter CMOS (most modern cameras). Global shutter cameras immune. Effect weakens >2m. Requires precise 1kHz frequency."
+}
