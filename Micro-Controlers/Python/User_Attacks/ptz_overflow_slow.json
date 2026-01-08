@@ -1,0 +1,18 @@
+{
+  "name": "PTZ_Overflow_Slow_Pulse",
+  "description": "Slower pulse rate for PTZ cameras with smaller tracking buffers",
+  "type": "camera_attack",
+  "severity": "medium",
+  "sequence": [
+    {"group": 0, "intensity": 180, "duration_ms": 200, "jitter_percent": 10},
+    {"group": 1, "intensity": 180, "duration_ms": 200, "jitter_percent": 10},
+    {"group": 2, "intensity": 180, "duration_ms": 200, "jitter_percent": 10},
+    {"group": 3, "intensity": 180, "duration_ms": 200, "jitter_percent": 10}
+  ],
+  "repeat": 12,
+  "target_cameras": ["Low-end_PTZ", "Old_AXIS_Q6034", "Hikvision_DS-2DE4A425IW-AE"],
+  "effective_range_meters": 4.0,
+  "power_consumption_watts": 24.0,
+  "expected_result": "Overflows 8-target PTZ buffer. Camera loses lock, enters search pattern.",
+  "limitations": "Newer PTZ with 32+ target buffers require more pulses. High-end optical tracking immune."
+}
