@@ -1,0 +1,12 @@
+*.hex
+*.bin
+*.elf
+*.map
+*.o
+*.d
+*.slo
+*.eep
+*.lst
+build/
+.vscode/
+.platformio/
