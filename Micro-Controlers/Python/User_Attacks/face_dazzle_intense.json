@@ -1,0 +1,16 @@
+{
+  "name": "Face_Dazzle_Intense_Plus",
+  "description": "Maximum intensity facial dazzle for longer range anti-biometric",
+  "type": "data_injection",
+  "severity": "high",
+  "sequence": [
+    {"group": 1, "intensity": 255, "duration_ms": 5000, "jitter_percent": 0},
+    {"group": 0, "intensity": 255, "duration_ms": 5000, "jitter_percent": 0}
+  ],
+  "repeat": 3,
+  "target_cameras": ["Clearview_AI_Camera", "AnyVision_Facial_Rec", "Briefcam_Face_Recognition"],
+  "effective_range_meters": 2.5,
+  "power_consumption_watts": 12.0,
+  "expected_result": "Facial recognition fails beyond 2.5m. System confidence drops below 15% threshold.",
+  "limitations": "High power draw drains battery faster. Thermal buildup on 5mm LEDs at max intensity. May be visible as faint red glow on 850nm LEDs."
+}
