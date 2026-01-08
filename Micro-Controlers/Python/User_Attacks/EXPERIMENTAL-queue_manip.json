@@ -1,7 +1,7 @@
 {
-  "name": "Queue_Length_Manipulation",
+  "name": "EXPERIMENTAL-Queue_Length_Manipulation",
   "description": "Spoofs queue length detection to trigger false register-open alerts or mask long wait times",
-  "type": "data_injection",
+  "type": "EXPERIMENTAL-data_injection",
   "severity": "medium",
   "sequence": [
     {"group": 1, "intensity": 160, "duration_ms": 5000, "jitter_percent": 10}
