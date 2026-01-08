@@ -1,7 +1,7 @@
 {
-  "name": "People_Count_Spoof_Injection",
+  "name": "EXPERIMENTAL-People_Count_Spoof_Injection",
   "description": "Simulates person walking through frame to inflate people-counter analytics",
-  "type": "data_injection",
+  "type": "EXPERIMENTAL-data_injection",
   "severity": "low",
   "sequence": [
     {"group": 0, "intensity": 180, "duration_ms": 200, "jitter_percent": 10},
