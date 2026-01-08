@@ -1,0 +1,19 @@
+{
+  "name": "AGC_Lock_Quick_Burst",
+  "description": "Rapid 2-second AGC attack for fast-recovery camera models",
+  "type": "camera_attack",
+  "severity": "high",
+  "sequence": [
+    {"group": 4, "intensity": 255, "duration_ms": 20, "jitter_percent": 0},
+    {"group": 4, "intensity": 0, "duration_ms": 20, "jitter_percent": 0},
+    {"group": 4, "intensity": 255, "duration_ms": 20, "jitter_percent": 0},
+    {"group": 4, "intensity": 0, "duration_ms": 20, "jitter_percent": 0},
+    {"group": 4, "intensity": 255, "duration_ms": 2000, "jitter_percent": 0}
+  ],
+  "repeat": 1,
+  "target_cameras": ["Bosch_Flexidome_IP_3000i", "Hanwha_Wisenet_Light", "Hikvision_DS-2CD2T47G1-L"],
+  "effective_range_meters": 2.5,
+  "power_consumption_watts": 24.0,
+  "expected_result": "2-3 second video blackout on fast-AGC cameras. Recovery in 1-2 seconds.",
+  "limitations": "Less effective on slow-AGC systems. Requires precise timing for target camera chipset."
+}
